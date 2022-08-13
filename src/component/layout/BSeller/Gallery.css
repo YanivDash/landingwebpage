@@ -1,0 +1,18 @@
+.productImg {
+  width: 100%;
+  height: 20vmax;
+  background-color: white;
+}
+.cardImg {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.bestHeading {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

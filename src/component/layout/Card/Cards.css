@@ -1,0 +1,57 @@
+/* .cards {
+  display: flex;
+  justify-content: space-between;
+} */
+.cards {
+  display: flex;
+  margin: auto;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.cardImage {
+  width: 20vmax;
+  display: flex;
+  border: 0;
+  flex-direction: column;
+  text-decoration: none;
+  color: rgb(48, 48, 48);
+  margin: 1vmax;
+  transition: all 0.5s;
+  padding-bottom: 0.5vmax;
+}
+.pImg {
+  object-fit: contain;
+  height: auto;
+  width: auto;
+}
+
+.cardImage:hover {
+  box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+  transform: translateY(-1vmax);
+}
+
+.about {
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 10vmin;
+  line-height: 1.1;
+}
+
+h1,
+p,
+body {
+  margin: 0;
+}
+
+p {
+  font-family: 'Dank Mono', ui-monospace, monospace;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
